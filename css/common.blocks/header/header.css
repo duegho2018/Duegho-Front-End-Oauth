@@ -25,6 +25,17 @@
 	font-size: 1.75rem;
 }
 
+
+.header__logo_size-big
+{
+	font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: -3.8px;
+}
+
 .header_col_1
 {
 	line-height: 50%;
