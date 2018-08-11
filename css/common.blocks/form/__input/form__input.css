@@ -1,0 +1,18 @@
+.form__input 
+{
+	width: 100%;
+   display: block;
+  height: 2.25rem;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #95989a;
+
+}
+.form__input_margin
+{
+	margin-bottom:var(--space-between-block);
+}
+.form-bottom__inscription-button
+{
+
+}

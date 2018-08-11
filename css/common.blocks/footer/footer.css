@@ -1,0 +1,40 @@
+/* desktop */
+.footer_background
+{
+	background: white;
+}
+
+.footer 
+{
+	position: absolute;
+	bottom:0;
+	width: 100%;
+  font-size: 0.75rem;
+	text-align: right;
+}
+.footer_size 
+{
+  height: 3rem;
+  line-height: 3rem;
+  background-color: #ffffff;
+}
+.footer__item
+{
+	text-decoration: none;
+	color:black;
+	margin-left:2rem;
+}
+.footer__item_button
+{
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #000000;
+  border-radius: 2px;
+  background-color: #ffffff;
+  border: solid 1px #000000;
+  margin-right: 10rem;
+  }
+  /* desktop */

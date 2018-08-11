@@ -1,0 +1,89 @@
+/* blocks dependencies */
+@import './common.blocks/form/form.css';
+@import './common.blocks/footer/footer.css';
+@import './common.blocks/header/header.css';
+
+/* fonts */
+@font-face
+{
+	font-family: poppins-medium;
+	src:url('../font/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face
+{
+	font-family: poppins-regular;
+	src:url('../font/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face
+{
+	font-family: poppins-black;
+	src:url('../font/Poppins/Poppins-Black.ttf');
+}
+
+
+@font-face
+{
+	font-family: poppins-blackItalic;
+	src:url('../font/Poppins/Poppins-BlackItalic.ttf');
+}
+/* styles */
+
+html,body
+{
+	height: 100%;
+	font-family: poppins-medium;
+	box-sizing: border-box;
+	margin:0;
+	background-image: url('../imgs/Background.png');
+}
+.login_background
+{
+	height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.login
+{
+}
+.login__form-container
+{
+	width: 25rem;
+	margin: 0 auto;
+}
+.login__form-title
+{
+  font-family: poppins-black;
+  font-size: 1.75rem;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.login__form-to-paykap
+{
+ font-family: poppins-regular;
+ font-size: 0.75rem;
+  font-weight: normal;
+  line-height: 2;
+}
+.login__form-paykap
+{
+	text-decoration: none;
+	font-size: 0.875rem;
+  	font-style: italic;
+  	line-height: 2;
+  	color: #95989a;
+  	font-family: poppins-blackItalic;
+}
+.login__form-container__2
+{
+	padding: var(--space-between-block);
+}
+.login__form-container__2_background
+{
+	border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.82);
+}
