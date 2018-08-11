@@ -1,0 +1,6 @@
+/* block dependencies */
+@import './login.css';
+:root
+{
+	--space-between-block:1rem;
+}
