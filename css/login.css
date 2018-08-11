@@ -36,22 +36,22 @@ html,body
 	font-family: poppins-medium;
 	box-sizing: border-box;
 	margin:0;
-	background-image: url('../imgs/Background.png');
+	background-image: var(--background-image);
 }
-.login_background
+.main_background
 {
 	height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
-.login
+.main
 {
 }
 .login__form-container
 {
-	width: 25rem;
+	width: var(--form-size-witdh);
 	margin: 0 auto;
 }
-.login__form-title
+.form-title
 {
   font-family: poppins-black;
   font-size: 1.75rem;
@@ -62,14 +62,14 @@ html,body
   letter-spacing: normal;
   color: #ffffff;
 }
-.login__form-to-paykap
+.to-paykap_style
 {
  font-family: poppins-regular;
  font-size: 0.75rem;
   font-weight: normal;
   line-height: 2;
 }
-.login__form-paykap
+.paykap_style
 {
 	text-decoration: none;
 	font-size: 0.875rem;

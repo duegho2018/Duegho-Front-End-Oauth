@@ -2,5 +2,17 @@
 @import './login.css';
 :root
 {
+	/* variables */
 	--space-between-block:1rem;
+	--background-image:url('../imgs/Background.png');
+	/* form variables */
+		--form-border-radius:2px;
+		--form-size-witdh:25rem;
+		--form-bg-color:white;
+	/* form variables */
+	--font-size-0:0.625rem; /*10px*/
+	--font-size-1:1.25rem; /*20px*/
+
+	/* colors */
+	--aqua--70: #1cc3ea
 }
