@@ -1,0 +1,31 @@
+@import url('index.css');
+
+.form_align_center
+{
+	text-align: center;
+}
+.login__form-container__2
+{
+}
+.form-header__forgot-password
+{ 
+  font-family: poppins-black;
+  font-size: 1.5rem;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #707070;
+}
+.login__form-container__2_align_center 
+{
+	text-align: center;
+	position: relative;
+	top:50%;
+	transform: perspective(1px) translateY(50%);
+}
+.form-header p
+{
+	margin: var(--space-between-block);
+}
