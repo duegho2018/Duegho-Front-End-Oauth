@@ -7,6 +7,7 @@
   background-color: #ffffff;
   border: solid 1px #95989a;
   padding: 0 0.3125rem 0 0.3125rem;
+  box-sizing: border-box;
 
 }
 .form__input_margin
