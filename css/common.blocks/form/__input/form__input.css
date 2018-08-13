@@ -3,9 +3,10 @@
 	width: 100%;
    display: block;
   height: 2.25rem;
-  border-radius: 2px;
+  border-radius: var(--form-border-radius);
   background-color: #ffffff;
   border: solid 1px #95989a;
+  padding: 0 0.3125rem 0 0.3125rem;
 
 }
 .form__input_margin
