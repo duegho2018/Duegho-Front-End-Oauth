@@ -1,7 +1,7 @@
 /* blocks dependencies */
-@import './common.blocks/form/form.css';
-@import './common.blocks/footer/footer.css';
-@import './common.blocks/header/header.css';
+@import 'form.css';
+@import 'footer.css';
+@import 'header.css';
 
 /* fonts poppins Black, BlackItalic,Medium,Regular */
 /* devanagari */
