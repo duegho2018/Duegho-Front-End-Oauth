@@ -3,44 +3,116 @@
 @import './common.blocks/footer/footer.css';
 @import './common.blocks/header/header.css';
 
-/* fonts */
-@font-face
-{
-	font-family: poppins-medium;
-	src:url('../font/Poppins/Poppins-Medium.ttf');
+/* fonts poppins Black, BlackItalic,Medium,Regular */
+/* devanagari */
+@font-face {
+  font-family: 'poppins-blackItalic';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Poppins Black Italic'), local('Poppins-BlackItalic'), url(https://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLm81xVFteOcEg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
 }
-
-@font-face
-{
-	font-family: poppins-regular;
-	src:url('../font/Poppins/Poppins-Regular.ttf');
+/* latin-ext */
+@font-face {
+  font-family: 'poppins-blackItalic';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Poppins Black Italic'), local('Poppins-BlackItalic'), url(https://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLm81xVGdeOcEg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
-@font-face
-{
-	font-family: poppins-black;
-	src:url('../font/Poppins/Poppins-Black.ttf');
+/* latin */
+@font-face {
+  font-family: 'poppins-blackItalic';
+  font-style: italic;
+  font-weight: 900;
+  src: local('Poppins Black Italic'), local('Poppins-BlackItalic'), url(https://fonts.gstatic.com/s/poppins/v5/pxiDyp8kv8JHgFVrJJLm81xVF9eO.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
-
-@font-face
-{
-	font-family: poppins-blackItalic;
-	src:url('../font/Poppins/Poppins-BlackItalic.ttf');
+/* devanagari */
+@font-face {
+  font-family: 'Poppins-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJnecmNE.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins-regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poppins Regular'), local('Poppins-Regular'), url(https://fonts.gstatic.com/s/poppins/v5/pxiEyp8kv8JHgFVrJJfecg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'poppins-medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'poppins-medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'poppins-medium';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Poppins Medium'), local('Poppins-Medium'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'poppins-black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Poppins Black'), local('Poppins-Black'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLBT5Z11lFc-K.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'poppins-black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Poppins Black'), local('Poppins-Black'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLBT5Z1JlFc-K.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'poppins-black';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Poppins Black'), local('Poppins-Black'), url(https://fonts.gstatic.com/s/poppins/v5/pxiByp8kv8JHgFVrLBT5Z1xlFQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 /* styles */
 
 html,body
 {
-	height: 100%;
-	font-family: poppins-medium;
-	box-sizing: border-box;
-	margin:0;
-	background-image: var(--background-image);
+  height: 100%;
+  font-family: poppins-medium;
+  box-sizing: border-box;
+  margin:0;
+  background-image: var(--background-image);
 }
 .main_background
 {
-	height: 100%;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
 .main
@@ -48,8 +120,8 @@ html,body
 }
 .login__form-container
 {
-	width: var(--form-size-witdh);
-	margin: 0 auto;
+  width: var(--form-size-witdh);
+  margin: 0 auto;
 }
 .form-title
 {
@@ -71,19 +143,19 @@ html,body
 }
 .paykap_style
 {
-	text-decoration: none;
-	font-size: 0.875rem;
-  	font-style: italic;
-  	line-height: 2;
-  	color: #95989a;
-  	font-family: poppins-blackItalic;
+  text-decoration: none;
+  font-size: 0.875rem;
+    font-style: italic;
+    line-height: 2;
+    color: #95989a;
+    font-family: poppins-blackItalic;
 }
 .login__form-container__2
 {
-	padding: var(--space-between-block);
+  padding: var(--space-between-block);
 }
 .login__form-container__2_background
 {
-	border-radius: 2px;
+  border-radius: 2px;
   background-color: rgba(255, 255, 255, 0.82);
 }

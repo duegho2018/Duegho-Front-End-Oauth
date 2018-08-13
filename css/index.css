@@ -6,7 +6,7 @@
 	--space-between-block:1rem;
 	--background-image:url('../imgs/Background.png');
 	/* form variables */
-		--form-border-radius:2px;
+		--form-border-radius:5px;
 		--form-size-witdh:25rem;
 		--form-bg-color:white;
 	/* form variables */
@@ -15,4 +15,5 @@
 
 	/* colors */
 	--aqua--70: #1cc3ea
+	--white:#fff;
 }

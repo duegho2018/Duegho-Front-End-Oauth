@@ -2,7 +2,7 @@
 {
 	width: 100%;
 	height: 2.25rem;
-  border-radius: 2px;
+  border-radius: var(--form-border-radius);
   background-color: #1cc3ea;
   color:white;
   font-size: 0.75rem;
@@ -12,5 +12,6 @@
   line-height: 1;
   letter-spacing: normal;
   margin-bottom:var(--space-between-block);
+  border:none;
   
 }
