@@ -47,13 +47,60 @@
 }
 .form__requirement
 {
-
+  display: inline-block;
   font-size: var(--font-size-0);
   font-weight: 500;
   font-style: normal;
   font-stretch: normal;
-  line-height: 1.2;
+  line-height: var(--font-size-0);
   letter-spacing: normal;
   text-align: left;
   color: #95989a;
+  margin: 0.7rem;
+  margin-left:0px;
+}
+.form__number_select, .form__input_number_style
+{
+   display: inline-block;
+  height: 2.25rem;
+  border-radius: var(--form-border-radius);
+  background-color: #ffffff;
+  border: solid 1px #95989a;
+  padding: 0 0 0 0.3125rem;
+  box-sizing: border-box;
+
+ }
+
+ .form__number_select
+ {
+  width:  10%;
+  border-right:none;
+  border-radius:  var(--form-border-radius) 0 0 var(--form-border-radius);
+  appearance:none;
+  -webkit-appearance:none;
+ -moz-appearance:none;
+  color:var(--gray);
+
+ }
+ select::-ms-expand // remove the default arrow for IE
+{
+  display:none;
+}
+.form__input_number_style
+{
+  border-radius:0  var(--form-border-radius) var(--form-border-radius) 0; 
+  width:  90%;
+}
+.form__number
+{
+  width:  100%;
+  display:  flex;
+  }
+.form__password
+{
+  display:  flex;
+  width:  100%;
+  border-radius: var(--form-border-radius);  
+  border: solid 1px #95989a;
+
 }

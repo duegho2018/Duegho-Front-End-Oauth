@@ -8,7 +8,10 @@
   border: solid 1px #95989a;
   padding: 0 0.3125rem 0 0.3125rem;
   box-sizing: border-box;
-
+}
+::placeholder
+{
+	color: var(--gray);
 }
 .form__input_margin
 {
@@ -17,4 +20,20 @@
 .form-bottom__inscription-button
 {
 
+}
+.form__input_showPassword
+{
+  align-self: 	center;
+  font-size: 8px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 8px;
+  letter-spacing: normal;
+  color: var(--gray);
+  margin-right: 1rem;
+}
+.form__input_password_style
+{
+	border:0;
 }
