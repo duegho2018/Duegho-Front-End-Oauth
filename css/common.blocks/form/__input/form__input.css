@@ -23,6 +23,9 @@
 }
 .form__input_showPassword
 {
+  border:0;
+  text-shadow: 0;
+  background: white;
   align-self: 	center;
   font-size: 8px;
   font-weight: 500;
