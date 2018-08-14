@@ -4,6 +4,8 @@
 	<link rel="stylesheet" type="text/css" href="../../css/register.css">
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 	<title>Inscription</title>
 </head>
 
@@ -57,11 +59,17 @@
 									<!-- email-->
 
 									<!-- number -->
-										<input id="number" type="number" placeholder="Numéro de téléphone" class="form__input form__input_margin"/>
+										<div class="form__number form__input_margin">
+											<select class="form__number_select"><option>+237</option></select>
+											<input id="number" type="number" placeholder="Numéro de téléphone" class="form__input_number_style"/>
+									</div>
 									<!-- number -->
 
 									<!-- password-->
-										<input id="password" type="password" placeholder="mot de passe" class="form__input"/>
+									    <div class="form__password">
+												<input id="password" type="password" placeholder="mot de passe" class="form__input form__input_password_style"/>
+												<button id="showOrHidePassword" class="material-icons form__input_showPassword" type="button">visibility_off</button>
+										</div>
 									<!-- password -->
 									<span class="form__requirement form__input_margin">Doit contenir au minimum 6 caractères</span>
 									<button class="form__connect-button">S'INSCRIRE</button>
@@ -91,6 +99,6 @@
 			</footer>
 		<!-- footer -->
 	</main>
-
+<script type="text/javascript" src="../helpers/registerHelper.js"></script>
 </body>
 </html>
