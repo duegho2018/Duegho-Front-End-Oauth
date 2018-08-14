@@ -62,14 +62,20 @@
 
 									<!-- number -->
 										<div class="form__number form__input_margin">
-											<select class="form__number_select" name="countryCode"><option value="+237" >+237</option></select>
+											<div class="form__number_select">
+												<select style="font-family: 'FontAwesome', 'Open Sans';">
+    												<optgroup label="&#xf20d; Option Group Name">
+        											<option value="value" >&#xf20d; Option Name</option>
+    												</optgroup>
+												</select>
+											</div>
 											<input id="number" name="number" type="number" placeholder="Numéro de téléphone" class="form__input_number_style"/>
 									</div>
 									<!-- number -->
 
 									<!-- password-->
 									    <div class="form__password">
-												<input id="password" type="password" placeholder="mot de passe" name = "password" class="form__input form__input_password_style"/>
+												<input id="password" type="password" placeholder="Mot de passe" name = "password" class="form__input form__input_password_style"/>
 												<button id="showOrHidePassword" class="material-icons form__input_showPassword" type="button">visibility_off</button>
 										</div>
 									<!-- password -->
@@ -101,7 +107,5 @@
 			</footer>
 		<!-- footer -->
 	</main>
-<script type="text/javascript" src="../helpers/ajaxRequestHelper.js"></script>
-<script type="text/javascript" src="../helpers/registerHelper.js"></script>
 </body>
 </html>

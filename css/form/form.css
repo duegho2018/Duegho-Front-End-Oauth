@@ -22,6 +22,7 @@
   color: #95989a;
   display: inline-block;
   margin-bottom: var(--space-between-block);
+  cursor:pointer;
 }
 
 .form-bottom 
@@ -34,6 +35,7 @@
   letter-spacing: normal;
   color: #95989a;
   text-align: center; 
+  cursor:pointer;
 }
 .form-bottom_size
 {
@@ -44,6 +46,7 @@
 {
 	text-decoration: none;  
 	color: #1cc3ea;
+  cursor:pointer;
 }
 .form__requirement
 {
@@ -73,23 +76,35 @@
 
  .form__number_select
  {
-  width:  10%;
-  border-right:none;
+  width:  20%;
   border-radius:  var(--form-border-radius) 0 0 var(--form-border-radius);
-  appearance:none;
-  -webkit-appearance:none;
- -moz-appearance:none;
-  color:var(--gray);
-
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
+  border-color:var(--gray);
+  border-right: 0px;
+  padding-right: 0.6rem;
  }
  select::-ms-expand // remove the default arrow for IE
 {
   display:none;
+
+}
+select
+{
+  appearance:none;
+  -webkit-appearance:none;
+ -moz-appearance:none;
+ border:none;
+ color:var(--gray);
 }
 .form__input_number_style
 {
   border-radius:0  var(--form-border-radius) var(--form-border-radius) 0; 
-  width:  90%;
+  width:  80%;
+  padding: 0 var(--form-input-padding) 0 var(--form-input-padding);
+  
 }
 .form__number
 {
@@ -103,4 +118,10 @@
   border-radius: var(--form-border-radius);  
   border: solid 1px #95989a;
 
+}
+.form__number_country_code
+{
+  border-radius: 50%;
+  width:;
+  height: 1.1rem;
 }
