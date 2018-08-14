@@ -46,33 +46,35 @@
 					<div class="center-container__right-block">
 						<!--the form-->
 							<div class="center-container_right-block">
-								<form class="form form_align_left">
+								<form class="form form_align_left" id="form">
 									<!-- last name -->
-										<input id="last_name" type="text" placeholder="Prénom" class="form__input form__input_margin"/>
+										<input id="last_name" type="text" placeholder="Prénom" name="last_name" class="form__input form__input_margin"/>
 									<!-- last name -->
 									
 									<!-- first name -->
-										<input id="first_name" type="text" placeholder="Nom" class="form__input form__input_margin"/>
+										<input id="first_name" type="text" placeholder="Nom" name="first_name" class="form__input form__input_margin"/>
 									<!-- first name -->
 									<!-- email-->
-										<input id="email" type="text" placeholder="Adresse email" class="form__input form__input_margin"/>
+										<input id="email" type="text" 
+										 name="email"
+										 placeholder="Adresse email" class="form__input form__input_margin"/>
 									<!-- email-->
 
 									<!-- number -->
 										<div class="form__number form__input_margin">
-											<select class="form__number_select"><option>+237</option></select>
-											<input id="number" type="number" placeholder="Numéro de téléphone" class="form__input_number_style"/>
+											<select class="form__number_select" name="countryCode"><option value="+237" >+237</option></select>
+											<input id="number" name="number" type="number" placeholder="Numéro de téléphone" class="form__input_number_style"/>
 									</div>
 									<!-- number -->
 
 									<!-- password-->
 									    <div class="form__password">
-												<input id="password" type="password" placeholder="mot de passe" class="form__input form__input_password_style"/>
+												<input id="password" type="password" placeholder="mot de passe" name = "password" class="form__input form__input_password_style"/>
 												<button id="showOrHidePassword" class="material-icons form__input_showPassword" type="button">visibility_off</button>
 										</div>
 									<!-- password -->
 									<span class="form__requirement form__input_margin">Doit contenir au minimum 6 caractères</span>
-									<button class="form__connect-button">S'INSCRIRE</button>
+									<button id="submitButton" type="button" class="form__connect-button">S'INSCRIRE</button>
 								</form>
 							</div>
 						<!--the form-->
@@ -99,6 +101,7 @@
 			</footer>
 		<!-- footer -->
 	</main>
+<script type="text/javascript" src="../helpers/ajaxRequestHelper.js"></script>
 <script type="text/javascript" src="../helpers/registerHelper.js"></script>
 </body>
 </html>
