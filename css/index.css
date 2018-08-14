@@ -12,6 +12,7 @@
 	/* form variables */
 	--font-size-0:0.625rem; /*10px*/
 	--font-size-1:1.25rem; /*20px*/
+	--form-input-padding:1rem;
 
 	/* colors */
 	--aqua--70: #1cc3ea
