@@ -1,0 +1,21 @@
+@import url('./form/form.css');
+.form
+{
+  width: 35rem;
+  box-sizing: border-box;
+  
+}
+
+ .form__number_select
+ {
+  width:  15%;
+ }
+
+.form__input_number_style
+{
+  width:  90%;
+}
+.form__input_margin
+{
+	margin-bottom:0.5rem;
+}

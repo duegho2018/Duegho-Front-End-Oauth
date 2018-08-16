@@ -1,0 +1,41 @@
+@import url('./setup.css');
+
+
+body
+{
+	background-image:var(--background-image-setup-finish);
+	background-repeat: no-repeat;
+	background-position: top;	
+}
+.main
+{
+	height: 100%;
+}
+.main__container
+{
+	width: 35rem;	
+	font-family: poppins-regular;
+	text-align: center;
+	background-color:var(--white);
+}
+
+.main__title
+{
+	font-size: 1.25rem;
+	font-weight: bold;
+}
+.main__message
+{
+  font-size: 0.75rem;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: var(--grey);
+}
+.footer__button
+{
+	color: var(--white);
+	background-color:var(--aqua-70);
+}
