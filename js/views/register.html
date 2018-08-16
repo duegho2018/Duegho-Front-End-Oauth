@@ -47,13 +47,13 @@
 						<!--the form-->
 							<div class="center-container_right-block">
 								<form class="form form_align_left" id="form">
-									<!-- last name -->
-										<input id="last_name" type="text" placeholder="Prénom" name="last_name" class="form__input form__input_margin"/>
-									<!-- last name -->
+									<!-- first name -->
+										<input id="first_name" type="text" placeholder="Prénom" name="first_name" class="form__input form__input_margin"/>
+									<!-- first name -->
 									
-									<!-- first name -->
-										<input id="first_name" type="text" placeholder="Nom" name="first_name" class="form__input form__input_margin"/>
-									<!-- first name -->
+									<!-- last name -->
+										<input id="last_name" type="text" placeholder="Nom" name="last_name" class="form__input form__input_margin"/>
+									<!-- last name -->
 									<!-- email-->
 										<input id="email" type="text" 
 										 name="email"
@@ -66,7 +66,7 @@
 												<img src="../../imgs/flag@3x.png" class="form__number_country_code" alt="country code" />
 												<select  name="countryCode"><option value="+237" >+237</option></select>
 											</div>
-											<input id="number" name="number" type="number" placeholder="Numéro de téléphone" class="form__input_number_style"/>
+											<input id="number" name="number" type="tel" placeholder="Numéro de téléphone" class="form__input_number_style"/>
 									</div>
 									<!-- number -->
 
@@ -103,6 +103,9 @@
 				<button class="footer__item footer__item_button">FR</button>
 			</footer>
 		<!-- footer -->
+
+	<script type="text/javascript" src="../helpers/formVerificationHelper.js"></script>
+	<script type="text/javascript" src="../helpers/registerHelper.js"></script>
 	</main>
 </body>
 </html>

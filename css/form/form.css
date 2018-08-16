@@ -99,13 +99,6 @@ select
  border:none;
  color:var(--gray);
 }
-.form__input_number_style
-{
-  border-radius:0  var(--form-border-radius) var(--form-border-radius) 0; 
-  width:  80%;
-  padding: 0 var(--form-input-padding) 0 var(--form-input-padding);
-  
-}
 .form__number
 {
   width:  100%;
@@ -122,6 +115,22 @@ select
 .form__number_country_code
 {
   border-radius: 50%;
-  width:;
   height: 1.1rem;
+}
+.form__input_number_style
+{
+  border-radius:0  var(--form-border-radius) var(--form-border-radius) 0; 
+  width:  80%;
+  padding: 0 var(--form-input-padding) 0 var(--form-input-padding);
+  font-family: poppins-regular;
+}
+.form__label
+{
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: var(--black);
 }

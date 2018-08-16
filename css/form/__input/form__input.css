@@ -8,6 +8,7 @@
   border: solid 1px #95989a;
   padding: 0 var(--form-input-padding) 0 var(--form-input-padding);
   box-sizing: border-box;
+  font-family: poppins-regular;
 }
 ::placeholder
 {
@@ -16,10 +17,6 @@
 .form__input_margin
 {
 	margin-bottom:var(--space-between-block);
-}
-.form-bottom__inscription-button
-{
-
 }
 .form__input_showPassword
 {
