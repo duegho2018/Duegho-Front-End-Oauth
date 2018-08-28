@@ -134,3 +134,17 @@ select
   letter-spacing: normal;
   color: var(--black);
 }
+
+/* phone */
+  @media(max-width:500px)
+  {
+    .form_forgot-password,.form__requirement
+    {
+      display: none;
+    }
+    .submit
+    {
+      margin-top:  1rem;
+    }
+  }
+/* phone */

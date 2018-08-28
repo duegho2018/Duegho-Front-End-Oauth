@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="../../css/setup.css">
+	<link rel="stylesheet" href="../../css/setup/setup.css">
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<title>Importation de contacts</title>
+	<title>Informations supplémentaires</title>
 </head>
 <body>
 	<main class="main">
@@ -14,13 +14,20 @@
 				<span class="header__item" >Informations supplémentaires</span>
 				<span class="header__item"  style="color:black;">Importation de contacts</span>
 				<span class="header__item" style="color:black;">Terminé</span>
+				<!-- for phone-->
+					<span class="header__item_phone">Informations supplémentaires</span>
+				<!-- for phone-->
 			</header>
 		<!-- header -->
 
 
 		<!-- section -->
 			<section class="main__container">
+				<!-- nav progress bar -->
+					<div class="progress-bar-container"><nav class="progress-bar"></nav></div>
+				<!-- nav progress bar -->
 				<div>
+					<h1 class="import_title-phone">Configurez votre compte</h1>
 					<form class="form">
 							<label for="email" class="form__label">Adresse email de récupération (facultatif)</label>
 							<input class="form__input form__input_margin" type="email" placeholder="Adresse email de récupération (facultatif)" id="email" name="email"/>

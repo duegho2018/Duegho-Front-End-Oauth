@@ -1,0 +1,162 @@
+/* blocks dependencies */
+@import 'form/form.css';
+@import 'footer/footer.css';
+@import 'header/header.css';
+@import '../font.css';
+/* styles */
+
+html,body
+{
+  height: 100%;
+  font-family: poppins-medium;
+  box-sizing: border-box;
+  margin:0;
+  background-image: var(--background-image);
+}
+.main_background
+{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+.login__form-container
+{
+  width: var(--form-size-witdh);
+  margin: auto;
+  display: relative;
+  top:50%;
+  transform: perspective(1px) translateY(50%);
+}
+.form-title
+{
+  font-family: poppins-black;
+  font-size: 1.75rem;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+.to-paykap_style
+{
+ font-family: poppins-regular;
+ font-size: 0.75rem;
+  font-weight: normal;
+  line-height: 2;
+}
+.paykap_style
+{
+  text-decoration: none;
+  font-size: 0.875rem;
+    font-style: italic;
+    line-height: 2;
+    color: #95989a;
+    font-family: poppins-blackItalic;
+}
+.login__form-container__2
+{
+  padding: var(--space-between-block);
+}
+.login__form-container__2_background
+{
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.82);
+}
+
+.login__form-container__2_align_center 
+{
+  text-align: center;
+}
+.form-bottom_phone
+{
+  display: none;
+}
+
+/* phone */
+  @media(max-width: 500px)
+  {
+    .form-title
+    {
+      font-family: poppins-bold;
+      font-size: 1.25rem;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #707070; 
+    }
+    .main_background
+    {
+      height: 100%;
+      background-color: rgba(112, 112, 112, 0.94);
+    }
+    .login__form-container__2_background
+    {
+      border-radius: 0 0 2px 2px;
+      background-color: rgba(255, 255, 255, 1);
+    }
+
+    .to-paykap_style
+    {
+      font-size: 0.75rem;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      text-align: left;
+      color: #707070;
+    }
+    .paykap_style
+    {
+      color: #707070;
+      font-size: 0.75rem;
+      font-weight: 900;
+      font-style: italic;
+    }
+    .form-title
+    {
+      padding: 2rem 2rem 0 2rem ;
+      border-radius: 2px 2px 0 0;
+      background-color: rgba(255, 255, 255, 1);
+    }
+    .login__form-container
+    {
+      width: var(--form-size-witdh-phone);
+      margin: auto;
+      display: relative;
+      top:50%;
+      transform: perspective(1px) translateY(50%);
+    }
+    .account
+    {
+      display: none;
+    }
+    .header__logo_style
+    {
+      margin-left: 0.3rem;
+    }
+    .password
+    {
+      margin-bottom: 1rem;
+    }
+    .form-bottom
+    {
+      display: none;
+    }
+    .form-bottom_phone
+    {
+      display: block;
+      text-align: center;
+      font-size: 0.75rem;
+      font-weight: 500;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.5;
+      letter-spacing: normal;
+      color: var(--white);
+      margin-top: 1rem;
+    }
+  }

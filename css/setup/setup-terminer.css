@@ -12,9 +12,9 @@ body
 	height: 100%;
 }
 .main__container
-{
-	width: 35rem;	
+{	
 	font-family: poppins-regular;
+  width: var(--form-size-witdh);
 	text-align: center;
 	background-color:var(--white);
 }
@@ -39,3 +39,33 @@ body
 	color: var(--white);
 	background-color:var(--aqua-70);
 }
+.progress-bar
+{
+	display: none;
+}
+
+/* phone */
+  @media(max-width: 640px)
+  {
+    .footer__button
+    {
+      border:none;
+      background-color:transparent;
+      color: var(--aqua-70);
+      font-size: 1rem;
+    }
+    .main__message
+    {
+      text-align: center;
+    }
+    .main__container
+    {
+      width: var(--form-size-witdh-phone);
+    }
+    .progress-bar
+      {
+        width: 90%;
+        display: block;
+      }
+  }
+/* phone */

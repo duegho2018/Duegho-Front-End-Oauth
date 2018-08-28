@@ -1,4 +1,4 @@
-@import url('./form/form.css');
+@import url('../authentification/form/form.css');
 .form
 {
   width: 35rem;

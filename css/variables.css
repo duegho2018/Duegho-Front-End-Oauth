@@ -2,16 +2,18 @@
 {
 	/* variables */
 	--space-between-block:1rem;
-	--background-image:url('../imgs/Background.png');
-	--background-image-setup-finish:url('../imgs/confettis@4x.png');
+	--background-image:url('../../imgs/Background.png');
+	--background-image-setup-finish:url('../../imgs/confettis@4x.png');
 	/* form variables */
 		--form-border-radius:5px;
 		--form-size-witdh:25rem;
 		--form-bg-color:white;
+		--form-size-witdh-phone:21rem;
+		--form-input-padding:1rem;
+	
 	--font-size-0:0.625rem; /*10px*/
 	--font-size-1:1.25rem; /*20px*/
-	--form-input-padding:1rem;
-
+	
 	/*footers variables*/
 	--footer-height: 2.5rem;
 	--footer-padding:0.375rem;
@@ -22,4 +24,5 @@
 	--gray:#95989a;
 	--black:#000000;
 	--grey:#95989a;
+
 }

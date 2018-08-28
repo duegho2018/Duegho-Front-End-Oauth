@@ -1,0 +1,109 @@
+@import url('index.css');
+.center-container
+{
+	display: flex;
+	flex-flow:row; 
+	justify-content:center;
+	align-items: center;
+	margin: 5rem 5rem 0 0;
+}
+.center-container__right-block
+{
+	width: var(--form-size-witdh);
+	background-color:var(--form-bg-color);
+	padding: var(--space-between-block);
+	border-radius: var(--form-border-radius);	
+}
+.center-container__left-block
+{
+	color: white; 
+	width: var(--form-size-witdh);
+}
+.center-container__left-block-down > :first-child
+{
+  font-family: poppins-black;
+  font-size: var(--font-size-1);
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+}
+
+.center-container__left-block-down > :nth-child(2) a
+{
+	display: inline-block;
+	margin: var(--space-between-block);
+}
+.form-bottom_phone,.center-container_right-form-title
+{
+	display: none;
+}
+
+/* phones */
+	@media(max-width: 500px)
+	{
+		.center-container
+		{
+			display: block;
+			margin: auto;
+			position: relative;
+			top:50%;
+			transform: perspective(1px) translateY(-50%);
+	
+		}
+		.center-container__right-block
+		{
+			display: block;
+			margin:auto;
+			width: var(--form-size-witdh-phone);
+		}
+		.center-container__left-block
+		{
+			display: none;
+		}
+		.form-bottom_phone
+		{
+			display: 	block;
+		}
+		.form-bottom_phone,.form-bottom__inscription-button
+		{
+		 	font-size: 0.75rem;
+		  	font-weight: 500;
+		  	font-style: normal;
+		  	font-stretch: normal;
+		  	line-height: 1.5;
+		  	letter-spacing: normal;
+		  	text-align: center;
+	  		color: var(--white);		
+		}
+		.center-container_right-form-title
+		{
+			display: 	block;
+			margin-bottom: 1rem;
+			padding: 0 2rem 0 2rem ;
+		}
+		.center-container_right-form-title, .center-container_right-form-title_link
+		{
+			
+			font-size: 1.25rem;
+  			font-weight: bold;
+  			font-style: normal;
+  			font-stretch: normal;
+  			line-height: 1.5;
+  			letter-spacing: normal;
+  			text-align: left;
+  			color: #707070;
+		}
+		.center-container_right-form-title_link
+		{
+			text-decoration: none;
+			margin-left: 0.3rem;
+		}
+
+
+	}
+/* phones */
+
