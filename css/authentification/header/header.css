@@ -68,7 +68,7 @@
   /* desktop */  
 
   /* phone */  
-    @media(max-width: 500px)
+    @media(max-width: 640px)
     {
       .header
       {

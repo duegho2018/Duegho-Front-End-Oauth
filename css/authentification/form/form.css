@@ -136,7 +136,7 @@ select
 }
 
 /* phone */
-  @media(max-width:500px)
+  @media(max-width:640px)
   {
     .form_forgot-password,.form__requirement
     {

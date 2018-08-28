@@ -43,7 +43,7 @@
 }
 
 /* phones */
-	@media(max-width: 500px)
+	@media(max-width: 640px)
 	{
 		.center-container
 		{
