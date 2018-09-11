@@ -1,0 +1,28 @@
+{
+  "name": "servestaticcontent",
+  "version": "0.0.1",
+  "dependencies": {
+    "authy-client": "^1.1.1",
+    "body-parser": "^1.15.0",
+    "express": "3.x",
+    "guid": "0.0.12",
+    "mustache": "^2.2.1",
+    "querystring": "^0.2.0",
+    "request": "^2.69.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "description": "",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duegho2018/Duegho-Front-End-Oauth.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/duegho2018/Duegho-Front-End-Oauth/issues"
+  },
+  "homepage": "https://github.com/duegho2018/Duegho-Front-End-Oauth#readme"
+}

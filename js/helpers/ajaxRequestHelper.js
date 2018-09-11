@@ -44,9 +44,9 @@ let request = (url,method,data) =>
     req.onerror=()=> {
       reject(Error("Network Error"));
     };
-
+    console.log(JSON.stringify(data));
     // Make the request
-    req.send(data);
+    req.send(JSON.stringify(data));
   });
 };
-export(getData,request);
+export {getData,request};

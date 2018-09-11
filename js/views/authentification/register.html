@@ -52,7 +52,7 @@
 										<a href=# class="paykap_style">PayKap</a>
 									</div>
 								<!--paykap_duego-->
-								<form class="form form_align_left" id="form">
+								<form class="form form_align_left"  method="post" id="form" >
 									<!-- first name -->
 										<input id="first_name" type="text" placeholder="Prénom" name="first_name" class="form__input form__input_margin"/>
 									<!-- first name -->
@@ -72,7 +72,7 @@
 												<img src="../../../imgs/flag@3x.png" class="form__number_country_code" alt="country code" />
 												<select  name="countryCode"><option value="+237" >+237</option></select>
 											</div>
-											<input id="number" name="number" type="tel" placeholder="Numéro de téléphone" class="form__input_number_style"/>
+											<input id="number" name="phone_number" type="tel" placeholder="Numéro de téléphone" class="form__input_number_style"/>
 									</div>
 									<!-- number -->
 
@@ -113,8 +113,10 @@
 			</footer>
 		<!-- footer -->
 
-	<script type="text/javascript" src="../helpers/formVerificationHelper.js"></script>
-	<script type="text/javascript" src="../helpers/registerHelper.js"></script>
 	</main>
+<script type="module" src="./js/helpers/formVerificationHelper.js"></script>
+	<script type="text/javascript" src="./js/helpers/registerHelper.js"></script>
+	<script type="module" src="./js/helpers/verificationApi.js"></script>
+	
 </body>
 </html>
